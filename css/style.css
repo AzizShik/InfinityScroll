@@ -188,12 +188,14 @@ body {
 	position: relative;
 	border-radius: 10px;
 	overflow: hidden;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .img {
 	height: 500px;
 	width: 100%;
 	object-fit: cover;
+	transition: all .5s ease;
 }
 
 .lazy {
@@ -265,5 +267,11 @@ body {
 @media (max-width: 480px) {
 	.title {
 		font-size: 4.7vw;
+	}
+}
+
+@media (hover: hover) {
+	.img-block:hover .img {
+		transform: scale(1.25);
 	}
 }
