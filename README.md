@@ -17,7 +17,7 @@ If clicking on the photo you will be redirected </br>
 to the site unspalsh with the ability to upload photo. </br> 
 Also you will see more information about of the photo.
 
-### The base project covered:
+### The project covered:
 
 - Querying, Manipulating the DOM
 - Handling DOM Events
